@@ -25,9 +25,9 @@ namespace AbstractClass_HW
 
         public virtual void Print()
         {
-            Console.WriteLine(this.side);
-            Console.WriteLine(this.CalculateArea());
-            Console.WriteLine(this.CalculatePerimeter());
+            Console.WriteLine("Side: " + this.side);
+            Console.WriteLine("The area is: " + this.CalculateArea());
+            Console.WriteLine("The perimeter is: " + this.CalculatePerimeter());
         }
 
     }

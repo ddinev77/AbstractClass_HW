@@ -14,16 +14,17 @@ namespace AbstractClass_HW
 
         public override double CalculateArea()
         {
-            return side * side;
+            return this.side * this.side;
         }
 
         public override double CalculatePerimeter()
         {
-            return 4 * side;
+            return 4 * this.side;
         }
 
         public override void Print()
         {
+            Console.WriteLine("Shape: Square");
             base.Print();
         }
     }

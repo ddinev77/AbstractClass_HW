@@ -15,17 +15,18 @@ namespace AbstractClass_HW
 
         public override double CalculateArea()
         {
-            return Math.PI * side * side;
+            return Math.PI * this.side * this.side;
         }
 
         public override double CalculatePerimeter()
         {
-            return 2 * Math.PI * side;
+            return 2 * Math.PI * this.side;
         }
 
         public override void Print()
         {
-            base.Print();
+            Console.WriteLine("Shape: Circle");
+            base.Print();       
         }
     }
 }

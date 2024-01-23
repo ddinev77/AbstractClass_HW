@@ -7,7 +7,7 @@
             List<Shape> shapes = new List<Shape>();
             char symbol = char.Parse(Console.ReadLine());
 
-            while (symbol != 'c' || symbol != 'q' || symbol != 's') 
+            while (symbol == 'c' || symbol == 'q' || symbol == 's') 
             {
                 if (symbol == 'c')
                 {
